@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sky" >
+
+	<vn.zerogame.fastsum.MeteoView
+	    android:id="@+id/meteoView"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+	    />    
+	    
+	<ImageView
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"            
+            android:layout_marginTop="60dp" 
+            android:src="@drawable/fast_sum_text"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            />
+    
+    <LinearLayout
+        android:id="@+id/menuLayout" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:background="#00ffffff"
+        android:padding="20dp">
+        
+         
+        
+        
+        <ImageView
+            android:id="@+id/noLimitSelectionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"            
+            android:layout_marginBottom="30dp" 
+            android:src="@drawable/no_limit_button"
+            android:paddingLeft="55dp"
+            android:paddingRight="55dp"
+            />
+        
+        
+        <ImageView
+            android:id="@+id/threeSelectionButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"            
+            android:layout_marginBottom="30dp"
+            android:background="#00ffffff"
+            android:paddingLeft="65dp"
+            android:paddingRight="65dp"
+            android:src="@drawable/three_selection_button"
+            />
+        
+        <ImageView
+            android:id="@+id/fourSelectionButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"                        
+            android:background="#00ffffff" 
+            android:paddingLeft="65dp"
+            android:paddingRight="65dp"
+            android:src="@drawable/four_selection_button"
+            />
+        
+        
+        
+    </LinearLayout>
+
+</FrameLayout>
